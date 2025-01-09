@@ -21,8 +21,6 @@ The resulting value will look like this in binary ``0b11110010011001101111111111
 
 ## How to use
 
-You can use t
-
 First, download and include the ``signed_ptr.h`` file into your project. Then you can use the ``signed_ptr`` datatype like you would use a smart pointer, except that this one isn't that smart. You can either create such a pointer by giving it an existing pointer like this:
 ```cpp
 signed_ptr<decltype(MessageBoxA)> messagebox_ptr = MessageBoxA;
